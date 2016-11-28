@@ -1,0 +1,20 @@
+{
+    "name": "tobscure/flarum-ext-tag-passwords",
+    "type": "flarum-extension",
+    "description": "Password protect tags.",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.6",
+        "flarum/flarum-ext-tags": "^0.1.0-beta.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tobscure\\TagPasswords\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Tag Passwords"
+        }
+    }
+}

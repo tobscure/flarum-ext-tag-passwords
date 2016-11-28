@@ -1,0 +1,7 @@
+forum:
+  tag_password_required:
+    title: Password required to view discussions in this tag
+
+admin:
+  edit_tag:
+    password_protected_label: Password-protect this tag
