@@ -28,6 +28,6 @@ app.initializers.add('tobscure/tag-passwords', () => {
   });
 
   extend(EditTagModal.prototype, 'submitData', function(data) {
-    data.password = this.isPasswordProtected() ? this.password() : null;
+    data.password = this.isPasswordProtected() ? this.password() : '';
   })
 });

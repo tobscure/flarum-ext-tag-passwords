@@ -44,7 +44,7 @@ System.register('tobscure/tag-passwords/main', ['flarum/extend', 'flarum/app', '
         });
 
         extend(EditTagModal.prototype, 'submitData', function (data) {
-          data.password = this.isPasswordProtected() ? this.password() : null;
+          data.password = this.isPasswordProtected() ? this.password() : '';
         });
       });
     }
